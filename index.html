@@ -87,7 +87,7 @@
                                             aria-label="Toggle navigation">Program</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a id="contact-nav" href="mailto:mailto:youssef.mohamed@kaust.edu.sa"
+                                        <a id="contact-nav" href="mailto:youssef.mohamed@kaust.edu.sa"
                                             aria-label="Toggle navigation">Contact</a>
                                     </li>
                                 </ul>
@@ -174,6 +174,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title">
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s" style="margin-top:2em;"></h2>
                         <h3 class="wow zoomIn" data-wow-delay=".2s">Workshop</h3>
                         <h2 class="wow fadeInUp" data-wow-delay=".4s">Presentation</h2>
                     </div>
@@ -568,100 +569,84 @@
                     <div class="row mt-5" id="challenge-section">
                         <div class="col-12">
                             <div class="section-title">
+                                <h2 class="wow fadeInUp" data-wow-delay=".4s" style="margin-top:4em;"></h2>
                                 <h3 class="wow zoomIn" data-wow-delay=".2s">Challenge</h3>
                                 <h2 class="wow fadeInUp" data-wow-delay=".4s">🏆 ArtELingo Challenge</h2>
                             </div>
 
                             <!-- Papers submission section-->
                             <div class="section-text-content">
-                                Our challenge aims to improve emotion understanding and its connection to
-                                vision and language through two tasks: Emotion Recognition and Affective Image
-                                Captioning.
-                                Emotion Recognition requires models capable of predicting emotions from textual and
-                                visual input, while Affective Image Captioning involves generating captions dependent on
-                                both an image and an emotion.
-                                We will use <span class="fw-bold"><a
-                                        href="https://www.artelingo.org/">ArtELingo</a></span>, a multi-lingual and
-                                cross-cultural
-                                dataset, to encourage the
-                                development of solutions that model emotions and cultural differences. Our goal is to
-                                inspire the creation of emotion-culture-aware AI systems, a significant advancement for
-                                the field.
-                                In addition to modeling emotions, we aim to encourage solutions that also model cultural
-                                differences.
+                                Our proposed challenge aims to improve emotion understanding and its connection to vision and language through two tasks: Emotion Recognition and Affective Image Captioning.
+                                Emotion Recognition requires models capable of predicting emotions from textual and visual input, while Affective Image Captioning involves generating captions dependent on both an image and an emotion.
+                                We use a multi-lingual, cross-cultural dataset, <span class="fw-bold"><a href="https://www.artelingo.org/">ArtELingo</a></span>, to encourage the development of solutions that model emotions and cultural differences. Our goal is to inspire the creation of emotion-culture-aware AI systems, a significant advancement for the field.
+                                </br>
+                                </br>
+                                In addition to modeling emotions, we aim to encourage solutions that also model cultural differences.
 
-                                Our ultimate objective is to stimulate the development of emotion-culture-aware AI
-                                systems within the community.
+                                Our ultimate objective is to stimulate the development of emotion-culture-aware AI systems within the community.
                                 </br>
                                 </br>
-                                <hr />
+                                <hr/>
                                 <h5>📦 Dataset</h5>
 
                                 <div id="video-container" class="d-flex justify-content-center">
                                     <video autoplay muted loop>
-                                        <source src="assets/images/animation.mp4" type="video/mp4">
+                                      <source src="assets/images/animation.mp4" type="video/mp4">
                                     </video>
-                                </div>
-
+                                  </div>                              
+                              
                                 </br>
-                                <span class="fw-bold"><a href="https://www.artelingo.org/">ArtELingo</a></span> is a
-                                large-scale multi-lingual dataset of affective experiences triggered by visual artworks
-                                and explained in captions.
+                                <span class="fw-bold"><a href="https://www.artelingo.org/">ArtELingo</a></span> is a large-scale multi-lingual dataset of affective experiences triggered by visual artworks and explained in captions.
                                 </br>
-                                It contains 1.4 million annotations in <span class="fst-italic">Arabic, English, and
-                                    Chinese</span>.
-                                Emotional experiences are inherently subjective, and existing datasets collected in
-                                English from western cultures fail to represent cultural diversity.
-                                <span class="fw-bold"><a href="https://www.artelingo.org/">ArtELingo</a></span> captures
-                                both similarities and differences between cultures, providing a unique opportunity to
-                                explore cross-cultural emotional understanding.
+                                It contains 1.4 million annotations in <span class="fst-italic">Arabic, English, and Chinese</span>.
+                                Emotional experiences are inherently subjective, and existing datasets collected in English from western cultures fail to represent cultural diversity.
+                                <span class="fw-bold"><a href="https://www.artelingo.org/">ArtELingo</a></span> captures both similarities and differences between cultures, providing a unique opportunity to explore cross-cultural emotional understanding.
                                 While many similarities exist, intriguing cultural differences exist.
-                                Our challenge aims to inspire the development of models that can better capture these
-                                differences.
+                                Our challenge aims to inspire the development of models that can better capture these differences.
                                 </br>
                                 </br>
-
-                                <hr />
+    
+                                <hr/>
                                 <h5>📨 Submission and metrics</h5>
                                 </br>
-                                We will use the <a href="eval.ai">eval.ai</a> platform to host the challenge.
+                                We use the <a href="http://eval.ai">eval.ai</a> platform to host the challenge.
                                 </br>
-                                As mentioned above, we will have two tasks;
-                                <span class="fw-bold" style="color:#720c87;">Emotion Recognition</span> and <span
-                                    class="fw-bold" style="color:#a156b0;">Affective Image Captioning</span>.
-
+                                As mentioned above, we propose two tasks;
+                                <span class="fw-bold" style="color:#720c87;">Emotion Recognition</span> and <span class="fw-bold" style="color:#a156b0;">Affective Image Captioning</span>.
+                                
                                 </br>
                                 </br>
                                 <ul>
-                                    <li>
-                                        For <span class="fw-bold" style="color:#720c87;">Emotion Recognition</span>, we
-                                        will use the F1 metric on a private test set that will not be available to the
-                                        contestants.
-                                    </li>
+                                <li>
+                                For <span class="fw-bold" style="color:#720c87;">Emotion Recognition</span>, we use the F1 metric on a private test set that is not available to the contestants.
+                                </li>
+                            
+                                We provide a train and validation splits from the <span class="fw-bold"><a href="https://www.artelingo.org/">ArtELingo</a></span> dataset
+                                for the participants to develop their models.
 
-
-                                    We will provide a train and validation splits from the <span class="fw-bold"><a
-                                            href="https://www.artelingo.org/">ArtELingo</a></span> dataset
-                                    for the participants to develop their models.
-
-                                    </br>
-                                    <li>
-                                        For the <span class="fw-bold" style="color:#a156b0;">Affective Image
-                                            Captioning</span> task, we will use standard captioning metrics such as
-                                        <span class="fst-italic">BLEU, METEOR, ROUGE, and CIDEr</span>.
-                                    </li>
+                                </br>
+                                <li>
+                                For the <span class="fw-bold" style="color:#a156b0;">Affective Image Captioning</span> task, we use standard captioning metrics such as
+                                <span class="fst-italic">BLEU, METEOR, ROUGE, and CIDEr</span>.
+                                </li>
                                 </ul>
 
-                                In addition, we will use an emotion alignment metric that reflects whether the generated
-                                caption express a particular emotion or not.
+                                In addition, we use an emotion alignment metric that reflects whether the generated caption express a particular emotion or not. 
                                 </br>
                                 </br>
-                                For both tasks, we will evaluate the cross culture understanding via a held-out set from
-                                each language.
+                                For both tasks, we evaluate the cross culture understanding via a held-out set from each language.
 
-                                Moreover, we will evaluate an extreme cross culture scenario where we will provide a few
-                                shots of annotations collected in Spanish and evaluate the submitted models on a private
-                                spanish test set.
+                                Moreover, we evaluate an extreme cross culture scenario where we provide a few shots of annotations collected in Spanish and evaluate the submitted models on a private spanish test set.
+                                </br>
+                                </br>
+                                <span style="font-weight: 800; color: #101130;"><a href="http://eval.ai">Eval.ai</a> challenges links:</span>
+                                </br>
+                                </br>
+                                
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><span class="fw-bold" style="color:#720c87;">Emotion Recognition Challenge: &emsp; &emsp; &nbsp; &nbsp; &nbsp;</span> 👉 🌐 <a href="https://eval.ai/web/challenges/challenge-page/2106/overview">https://eval.ai/web/challenges/challenge-page/2106/overview</a></li>
+                                    <li class="list-group-item"><span class="fw-bold" style="color:#a156b0;">Affective Image Captioning Challenge: &emsp; </span> 👉 🌐 <a href="https://eval.ai/web/challenges/challenge-page/2104/overview">https://eval.ai/web/challenges/challenge-page/2104/overview</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -670,6 +655,7 @@
                     <div class="row mt-5" id="submission-section">
                         <div class="col-12">
                             <div class="section-title">
+                                <h2 class="wow fadeInUp" data-wow-delay=".4s" style="margin-top:2em;"></h2>
                                 <h3 class="wow zoomIn" data-wow-delay=".2s">Paper submission</h3>
                                 <h2 class="wow fadeInUp" data-wow-delay=".4s">📢 Call for papers</h2>
                             </div>
