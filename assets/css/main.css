@@ -3291,10 +3291,19 @@ ol {
   }
 }
 
+.event-abstract {
+  margin-left: 1em;
+}
+
 .events-schedule .single-event .date p {
   display: inline-block;
   color: #101130;
   font-weight: 500;
+  margin-left: 1em;
+}
+
+.events-schedule .abstract {
+  margin-top: 0.5em;
 }
 
 .events-schedule .single-event .date p span {
@@ -3313,6 +3322,7 @@ ol {
   -webkit-box-pack: left;
   -ms-flex-pack: left;
   justify-content: left;
+  margin-left: 2em;
 }
 
 @media (max-width: 767px) {
@@ -3339,12 +3349,17 @@ ol {
   height: 70px;
   width: 70px;
   border-radius: 50%;
+  max-width: 200%;
 }
 
 .events-schedule .single-event .event-info .info h4 a {
   font-size: 17px;
   font-weight: 500;
   color: #101130;
+}
+
+.events-schedule .single-event .event-info .info {
+  margin-left: 1em;
 }
 
 .events-schedule .single-event .event-info .info h4 a:hover {
