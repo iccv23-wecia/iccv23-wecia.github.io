@@ -148,7 +148,7 @@ button:focus,
 .paper-card-groups {
   text-align: center;
   margin-top: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 12em;
   z-index: 0;
   height: 15%;
 }
@@ -163,6 +163,12 @@ button:focus,
 .paper-card-groups .title-icon {
   font-size: 1.2rem !important;
   margin-bottom: 0.25em;
+}
+.paper-card-text-body {
+  position: relative;
+  display: inline-block;
+  bottom: 0em;
+  top: -7em;
 }
 
 .accepted-papers .row {
