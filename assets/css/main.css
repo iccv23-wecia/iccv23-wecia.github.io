@@ -165,8 +165,11 @@ button:focus,
   margin-bottom: 0.25em;
 }
 
-.accepted-papers .row:nth-child(2) {
+.accepted-papers .row {
   margin-top: 35px !important;
+}
+.accepted-papers .row:first-child {
+  margin-top: 0px !important;
 }
 
 .lineico {
